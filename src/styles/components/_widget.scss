@@ -1,0 +1,22 @@
+
+.widget {
+  @include box;
+  margin-bottom: 2rem;
+  padding: $s-size;
+}
+
+.widget-message {
+  margin: 0;
+  padding: $l-size;
+  text-align: center;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size;
+}
+
+.widget-header__title {
+  margin: 0;
+}

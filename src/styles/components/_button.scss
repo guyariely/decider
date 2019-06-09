@@ -1,0 +1,50 @@
+
+.big-button {
+  @include box;
+
+  border: none;
+  font-weight: bold;
+  font-size: $l-size;
+  margin-bottom: $l-size;
+  padding: 2.4rem;
+  width: 100%;
+
+  &:hover {
+    transform: translateY(0);
+    box-shadow: 0 20px 80px rgba(0,0,0,.1), 0 5px 20px rgba(0,0,0,.05);
+  }
+}
+
+.big-button:disabled {
+  opacity: 0.5;
+}
+
+.button {
+  border: none;
+  font-weight: 500;
+  padding: $s-size;
+}
+
+.button--add {
+  @include box;
+
+  background: darken(#fff, 6%) !important;
+  border-radius: 0 !important;
+
+  &:hover {
+    transform: translateY(0);
+    box-shadow: 0 20px 80px rgba(0,0,0,.1), 0 5px 20px rgba(0,0,0,.05);
+  }
+}
+
+.button--link {
+  background: none;
+  border: none;
+  padding: 0;
+  opacity: 0.5;
+
+  &:hover {
+    color: $primary;
+    opacity: 1;
+  }
+}

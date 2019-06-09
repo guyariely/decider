@@ -1,0 +1,14 @@
+
+  if (result == '' || operator is empty):
+    push to result (result += value)
+    - render result to monitor
+  else if (input is operator):
+    replace current operator 
+  else:
+    push to placeHolder
+    - render placeHolder to monitor
+
+  when ('=' is pressed):
+    result = result *operator* placeHolder
+    empty operator
+    empty placeHolder

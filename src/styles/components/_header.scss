@@ -1,0 +1,20 @@
+
+.header {
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+}
+
+.header__title {
+  font-size: $xl-size;
+  font-weight: 800;
+  background: linear-gradient(180deg, rgba(133,73,186,1) 64%, rgba(165,96,235,1) 90%);
+  margin: 0;  
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__subtitle {
+  font-size: $m-size;
+  font-weight: 600;
+  margin: 0;
+}
