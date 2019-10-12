@@ -1,1 +1,1 @@
-![Landing page](/assets/landing-page.png);
+![Landing page](/assets/landing-page.png)
